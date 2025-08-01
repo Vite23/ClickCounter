@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click-Count</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div class="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-blue-400 gap-5">
+
+        <div class="text-gray-800 font-medium text-[24px]"> Increment and Decrement </div>
+
+        <div class="flex bg-white text-[24px]  rounded-sm gap-12 p-2 px-4">
+
+            <!-- <button onclick="Decrement()" class="border-r-2  pr-5"> -->
+            <button id="decrement" class="border-r-2  pr-5">
+                <i class="fa-solid fa-minus" alt="Minus"></i>
+            </button>
+
+            <div id="counter" class="font-bold">
+                0
+            </div>
+
+            <!-- <button onclick="Increment()" class="border-l-2 pl-5"> -->
+            <button id="increment" class="border-l-2 pl-5">
+                <i class="fa-solid fa-plus" alt="Plus"></i>
+            </button>
+
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/6ef53a8e53.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
